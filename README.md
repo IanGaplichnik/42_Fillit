@@ -5,8 +5,8 @@ Top-left corner is prioritized and pieces are entered in the order of appearence
 &nbsp;
 &nbsp;
 
-### Compiling
----
+## Compiling
+
 Running ```make``` command will create a ```fillit``` executable.
 ```make clean``` will delete object files and ```make fclean``` deletes object files and executable.
 &nbsp;
