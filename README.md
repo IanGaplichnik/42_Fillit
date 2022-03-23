@@ -20,7 +20,7 @@ Running invalid maps will output an error message to the standart output and val
 &nbsp;
 &nbsp;
 
-####Example
+#### Example
 ---
 Running map
 ```
