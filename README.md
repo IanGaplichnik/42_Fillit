@@ -1,5 +1,5 @@
 # 42_FILLIT
----
+
 Aim of this project is to read a file, check it for errors (e.g. invalid input), determine the shapes, entered by the user, and insert those shapes in the smallest square possible.
 Top-left corner is prioritized and pieces are entered in the order of appearence in the file.
 &nbsp;
