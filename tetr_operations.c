@@ -6,7 +6,7 @@
 /*   By: igaplich <igaplich@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/10 12:01:48 by igaplich          #+#    #+#             */
-/*   Updated: 2022/03/01 17:40:23 by pskytta          ###   ########.fr       */
+/*   Updated: 2022/03/23 13:53:55 by igaplich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,9 +64,6 @@ void	tetr_create(t_tetlist **head, char **split, char map_sym, int *row)
 	tetr->symbol = map_sym;
 	tetr->next = NULL;
 	tetr_link(head, tetr);
-	ft_print_double(tetr->map, 4);
-	ft_putchar(tetr->symbol);
-	ft_putchar('\n');
 }
 
 /*

@@ -6,7 +6,7 @@
 /*   By: pskytta <pskytta@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/07 14:40:55 by igaplich          #+#    #+#             */
-/*   Updated: 2022/03/04 18:42:21 by igaplich         ###   ########.fr       */
+/*   Updated: 2022/03/23 13:55:18 by igaplich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,6 @@ void	tetr_manipulation(t_tetlist *head, int x_min, int y_min, int x)
 			y++;
 		}
 		tetr_move(head->map, &x_min, &y_min, 0);
-		ft_print_double(head->map, 4);
 		save_coord(head, 0, 0);
 		head = head->next;
 	}
